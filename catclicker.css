@@ -1,0 +1,19 @@
+body{
+	margin: 20px;
+	background-color: lightgray;
+}
+.formoff {
+	visibility: hidden;
+}
+
+.formon {
+	visibility: visible;
+}
+
+button {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+img {
+	width: 50vw;
+}

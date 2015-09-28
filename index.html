@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="catclicker.css">
+	<title>Cat Clicker</title>
+</head>
+
+<body>
+	<div id="catlist">
+	</div>
+	<div id="catdisplay">
+	</div>
+	<div id="catnumshow">
+	</div>
+	<button onclick="octopus.adminMode()">administration</button>
+	<form id="form1" class="formoff">
+		Cat name:
+		<br>
+		<input id="catname" type="text" name="catname">
+		<br> Cat URL:
+		<br>
+		<input id="caturl" type="text" name="caturl">
+		<br> Cat Click:
+		<br>
+		<input id="catclick" type="number" name="catclick">
+		<br>
+		<button id="save" type="button">Save</button>
+		<button onclick="octopus.nonAdminMode()">Cancel</button>
+	</form>
+</body>
+
+</html>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
